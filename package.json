@@ -1,0 +1,14 @@
+{
+  "name": "dhani-finance-loan-enquiry",
+  "version": "2.0.0",
+  "description": "Dhani Finance loan enquiry website with EMI calculator, reference tracking, email notifications and admin dashboard",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.13.1"
+  }
+}
