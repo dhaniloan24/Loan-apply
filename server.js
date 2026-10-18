@@ -18,7 +18,7 @@ const pool = process.env.DATABASE_URL
   : null;
 
 app.use(express.json({ limit: "1mb" }));
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(__dirname));
 
 function ensureFiles() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
